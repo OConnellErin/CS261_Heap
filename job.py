@@ -3,5 +3,5 @@
 # ERIN OCONNELL
 
 class Job:
-
-    pass
+    priority = None
+    message = None
