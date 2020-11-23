@@ -3,5 +3,7 @@
 # ERIN OCONNELL
 
 class Job:
-    priority = None
-    message = None
+
+    def __init__(self, priority = None, message = None):
+       self.priority = priority
+       self.message = message      

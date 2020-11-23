@@ -28,15 +28,15 @@ class TestJob(unittest.TestCase):
         j = Job()
         self.assertEqual(None, j.priority)
         self.assertEqual(None, j.message)
+    
 
-
-    # def test_attributes(self):
-    #     """
-    #     A Job is instantiated with a priority and a message.
-    #     """
-    #     j = Job(23, "Fake message")
-    #     self.assertEqual(23, j.priority)
-    #     self.assertEqual("Fake message", j.message)
+    def test_attributes(self):
+        """
+        A Job is instantiated with a priority and a message.
+        """
+        j = Job(23, "Fake message")
+        self.assertEqual(23, j.priority)
+        self.assertEqual("Fake message", j.message)
 
     """
     Comparisons. A larger priority value indicates a higher priority.
