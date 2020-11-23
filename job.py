@@ -22,5 +22,8 @@ class Job:
 
     def __le__(self, other):
         return self.priority <= other.priority    
+
+    def __ge__(self, other):
+        return self.priority >= other.priority    
                     
 
