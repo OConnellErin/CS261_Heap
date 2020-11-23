@@ -9,3 +9,6 @@ class NaivePriorityQueue:
 
     def enqueue(self,appendee):
         self.data.append(appendee)    
+
+    def dequeue(self):
+       return self.data.pop()
