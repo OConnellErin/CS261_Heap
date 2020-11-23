@@ -9,3 +9,7 @@ class MaxHeap:
    
    def __init__(self):
       self._data = []
+      self.size = 0
+
+   def _size(self):
+      return self.size
